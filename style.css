@@ -15,10 +15,10 @@
   
   :root {
     /* color */
-    --clr-bg: #000000;
+    --clr-bg: #250303;
     --clr-dark: #0091ff;
     --clr-primary: #0095ff;
-    --clr-sec: #000000;
+    --clr-sec: #1f93e0;
     --clr-btn-shadow: #6f33cf9b;
     --clr-light: #765eff;
     --clr-light-gray: #0f0202;
@@ -1138,14 +1138,14 @@
   }
   
   .title .fas{
-    color: #00d9ff;
+    color: #e6651b;
     font-size: 60px;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     text-align: center;
     line-height: 100px;
-    box-shadow: 0 2px 10px rgb(0, 213, 255);
+    box-shadow: 0 2px 10px rgb(206, 68, 4);
   }
   
   .title h2 {
@@ -1295,4 +1295,11 @@
   h2,
   span { 
     color: whitesmoke;
+  }
+
+  footer {
+    color: #0095ff;
+    transform: matrix(3, 5, 3, 6);
+    transition: none;
+    background-color: rgb(0, 0, 0);
   }
